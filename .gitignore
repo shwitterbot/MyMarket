@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv.backup*/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Django: local databases, uploads, collected static files
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+media/
+staticfiles/
+*.log
+
+# React / Node
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local environment variables (keep templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
